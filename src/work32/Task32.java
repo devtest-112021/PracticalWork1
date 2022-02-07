@@ -14,7 +14,7 @@ public class Task32 {
         System.out.println("Введите количеcтво месяцев: ");
         int month = scan2.nextInt();
 
-        double doxod=(summa * stavka * (month*1.0/12))/100;
+        double doxod=(summa * stavka * (month * 1.0 / 12)) / 100;
 
         System.out.println("Доход за" + " " + month + " " + "месяцев составляет: "+ doxod +" грн" );
 
