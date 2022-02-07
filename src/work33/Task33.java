@@ -5,8 +5,8 @@ public class Task33 {
         int price=830;
         int down=13;
         int up=7;
-        double  resultDownPrice=830 - ((price*down * 1.00) / 100);
-        double resultUpPrice=830 - (resultDownPrice * up) / 100;
+        double  resultDownPrice = 830 - ((price*down * 1.00) / 100);
+        double resultUpPrice = resultDownPrice + (resultDownPrice * up) / 100;
 
 
         System.out.println("Цена после падение на 13%:  " + resultDownPrice +" $");
