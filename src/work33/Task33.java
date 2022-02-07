@@ -5,7 +5,7 @@ public class Task33 {
         int price=830;
         int down=13;
         int up=7;
-        double  resultDownPrice = 830 - ((price*down * 1.00) / 100);
+        double  resultDownPrice = price - ((price*down * 1.00) / 100);
         double resultUpPrice = resultDownPrice + (resultDownPrice * up) / 100;
 
 
